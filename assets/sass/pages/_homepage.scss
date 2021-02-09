@@ -1,0 +1,376 @@
+.section-locations {
+
+    .location-box1 {
+        margin-bottom: 43px;
+    }
+
+    .location-box {
+
+        box-shadow: 0 1px 9px 0 rgba(0, 35, 64, 0.2);
+
+        .contact-info-wrapper {
+            padding: 38px;
+
+
+            .opens {
+                font-size: 14px;
+                line-height: 1.29;
+            }
+
+            h3 {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 0.05px;
+            }
+
+            a {
+                font-size: 14px;
+                letter-spacing: 0.05px;
+                line-height: 1.29;
+                color: $black;
+                text-decoration: underline;
+            }
+
+            .location-title {
+                font-size: $heading2;
+                letter-spacing: 0.07px;
+                border-bottom: solid 1.2px $grey-l;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+
+                &::before {
+                    content: "";
+                    display: inline-block;
+                    width: 15px;
+                    height: 22px;
+                    margin-right: 5px;
+                    background-image: url('../images/location.png');
+                    vertical-align: top;
+                }
+            }
+        }
+
+
+        .order-info {
+            color: $grey-m;
+            font-size: 11px;
+
+            &::before {
+                display: inline;
+                position: relative;
+                content: ' \002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D';
+            }
+
+            @media (max-width: 1199px) {
+                &::before {
+
+                    content: ' \002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D';
+                }
+            }
+
+
+            @media (max-width: 1199px) {
+                &::before {
+
+                    content: ' \002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D';
+                }
+            }
+
+
+            @media (max-width: 991px) {
+                &::before {
+
+                    content: ' \002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D';
+                }
+            }
+
+            @media (max-width: 767px) {
+                &::before {
+
+                    content: ' \002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D\002D';
+                }
+            }
+
+            @media (max-width: 540px) {
+                &::before {
+
+                    content: '';
+                }
+            }
+
+        }
+
+        .title-wrapper {
+
+            .title1,
+            .title2,
+            .title3,
+            .title4 {
+                display: inline-block;
+                padding: 5px;
+                font-family: 'Secular One', sans-serif;
+                font-size: 12.9px;
+                letter-spacing: 0.04px;
+            }
+
+            .title1 {
+                background-color: $light-pink;
+            }
+
+            .title2 {
+                background-color: $green-l;
+            }
+
+            .title3 {
+                background-color: $yellow;
+            }
+
+            .title4 {
+                background-color: $pink;
+            }
+
+        }
+
+        .image1 {
+            width: 100%;
+            height: 100%;
+            background-image: url('../images/contact-img1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .contact-images {
+
+
+            @media (max-width: 370px) {
+                flex-direction: column;
+                align-items: center;
+
+                .column3 {
+                    padding-bottom: 30px;
+                }
+            }
+
+        }
+
+        .column1,
+        .column2,
+        .column3,
+        .column4 {
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @media (max-width: 767px) {
+
+            .column1,
+            .column2 {
+                padding-bottom: 30px;
+            }
+        }
+
+    }
+
+}
+
+.section-image {
+
+    position: relative;
+    margin-top: 100px;
+
+    @media (max-width: 767px) {
+        padding: 30px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        background-color: $pink-m;
+        transform: rotate(-4deg);
+        left: 50px;
+
+
+        @media (max-width: 1280px) {
+            left: 20px;
+        }
+
+        @media (max-width: 767px) {
+            transform: rotate(0);
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+
+        top: 20px;
+
+    }
+
+    .image-two {
+
+        margin-top: 180px;
+    }
+
+    .soon {
+
+        height: 80%;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .soon-title {
+            color: $white;
+            font-size: 45px;
+            line-height: 1.22;
+        }
+    }
+
+}
+
+
+.section-grid-images {
+    margin-top: 100px;
+
+}
+
+.section-awards {
+
+    margin-top: 100px;
+
+    .title-award {
+        margin-bottom: 24px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        letter-spacing: 0.13px;
+        text-transform: uppercase;
+    }
+
+    .awards-card {
+
+        height: 100%;
+
+        .award-logo1,
+        .award-logo2 {
+            width: 79px;
+            height: auto;
+        }
+
+        .award-logo1 {
+            margin-right: 19px;
+        }
+
+        .brands {
+
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 100%;
+
+            .brand-icon {
+
+                height: 42px;
+                margin-right: 12px;
+                margin-top: 12px;
+                background-color: $placeholder;
+            }
+
+            .brand-icon1 {
+                width: 114px;
+            }
+
+            .brand-icon2 {
+                width: 81px;
+            }
+
+            .brand-icon3 {
+                width: 109px;
+            }
+
+            .brand-icon4 {
+                width: 114px;
+            }
+
+            .brand-icon5 {
+                width: 81px;
+            }
+
+            .brand-icon6 {
+                width: 109px;
+            }
+
+            .brand-icon7 {
+                width: 114px;
+            }
+
+        }
+
+    }
+
+    .brands-wrapper {
+
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+}
+
+.section-info-card {
+
+    margin-bottom: 100px;
+
+    .card-title {
+        font-size: 18px;
+        letter-spacing: 0.13px;
+        text-transform: uppercase;
+    }
+
+    .reference-logo-wrapper {
+
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .reference-logos {
+            display: flex;
+            flex-wrap: wrap;
+
+            .reference-logo {
+                height: 42px;
+                background-color: $placeholder;
+                margin-right: 12px;
+                margin-top: 12px;
+            }
+
+
+            .reference-logo1 {
+                width: 121px;
+            }
+
+            .reference-logo2 {
+                width: 85px;
+            }
+
+            .reference-logo3 {
+                width: 121px;
+            }
+
+            .reference-logo4 {
+                width: 85px;
+            }
+
+            .reference-logo5 {
+                width: 64px;
+            }
+        }
+    }
+}

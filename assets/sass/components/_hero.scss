@@ -1,0 +1,31 @@
+.hero-home {
+
+    background-image: url('../images/line.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 100px;
+
+    .breadcrumb-link {
+        font-size: 12px;
+    }
+
+    .hero-title {
+        font-size: $heading1;
+        text-transform: uppercase;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05px;
+        color: $black-m;
+        line-height: 1.25;
+    }
+
+    .breadcrumb-link {
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+}
